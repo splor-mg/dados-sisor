@@ -1,0 +1,43 @@
+fields:
+  - name: Código do Órgão
+    type: string
+  - name: Órgão
+    type: string
+  - name: Código da UO
+    type: string
+  - name: Unidade Orçamentária
+    type: string
+  - name: Função
+    type: string
+  - name: Subfunção
+    type: string
+  - name: Programa
+    type: string
+  - name: Identificador
+    type: string
+  - name: Projeto_Atividade
+    type: string
+  - name: Ação
+    type: string
+  - name: Subprojeto
+    type: string
+  - name: Categoria
+    type: string
+  - name: Grupo_Despesa
+    type: string
+  - name: Modalidade
+    type: string
+  - name: Elemento_Despesa
+    type: string
+  - name: Item_Despesa
+    type: string
+  - name: Fonte
+    type: string
+  - name: IPU
+    type: string
+  - name: IAG
+    type: string
+  - name: Descrição
+    type: string
+  - name: Valor (R$)
+    type: string

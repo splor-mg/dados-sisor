@@ -1,0 +1,64 @@
+fields:
+  - name: orgao_cod
+    title: Código do Órgão
+    type: integer
+  - name: orgao_nome_sigla
+    title: Órgão
+    type: string
+  - name: uo_cod
+    title: Código da UO
+    type: integer
+  - name: uo_nome_sigla
+    title: Unidade Orçamentária
+    type: string
+  - name: funcao_cod
+    title: Função
+    type: integer
+  - name: subfuncao_cod
+    title: Subfunção
+    type: integer
+  - name: programa_cod
+    title: Programa
+    type: integer
+  - name: Identificador
+    title: Identificador
+    type: integer
+  - name: Projeto_Atividade
+    title: Projeto_Atividade
+    type: integer
+  - name: acao_cod
+    title: Ação
+    type: integer
+  - name: Subprojeto
+    title: Subprojeto
+    type: integer
+  - name: Categoria
+    title: Categoria
+    type: integer
+  - name: Grupo_Despesa
+    title: Grupo_Despesa
+    type: integer
+  - name: Modalidade
+    title: Modalidade
+    type: integer
+  - name: Elemento_Despesa
+    title: Elemento_Despesa
+    type: integer
+  - name: Item_Despesa
+    title: Item_Despesa
+    type: integer
+  - name: Fonte
+    title: Fonte
+    type: integer
+  - name: IPU
+    title: IPU
+    type: integer
+  - name: IAG
+    title: IAG
+    type: integer
+  - name: acao_desc
+    title: Descrição
+    type: string
+  - name: vl_loa
+    title: Valor (R$)
+    type: number

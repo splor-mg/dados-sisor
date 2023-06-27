@@ -1,0 +1,22 @@
+name: loa-elaboracao
+resources:
+  - name: base_orcam_despesa_item_fiscal
+    path: data/base_orcam_despesa_item_fiscal.csv
+    format: csv
+    encoding: utf-8
+    schema: schemas/base_orcam_despesa_item_fiscal.yaml
+    sources:
+    - name: raw
+      path: data/raw/base_orcam_despesa_item_fiscal.html
+      type: table
+      format: html
+      encoding: windows-1252
+      dialect: dialect.yaml
+      schema: schemas/raw/base_orcam_despesa_item_fiscal.yaml
+      api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
+      payload:
+        sAnoSelecao: 2023
+        sTabelaSelec: 1
+        CmNomePlanilha: BASE_ORCAM_DESPESA_ITEM_FISCAL.xls
+        selecaoAno: 2023
+        sBaseSelec: 1
