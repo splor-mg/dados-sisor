@@ -1,43 +1,43 @@
 fields:
   - name: Código do Órgão
-    type: string
+    type: integer
   - name: Órgão
     type: string
   - name: Código da UO
-    type: string
+    type: integer
   - name: Unidade Orçamentária
     type: string
   - name: Função
-    type: string
+    type: integer
   - name: Subfunção
-    type: string
+    type: integer
   - name: Programa
-    type: string
+    type: integer
   - name: Identificador
-    type: string
+    type: integer
   - name: Projeto_Atividade
-    type: string
+    type: integer
   - name: Ação
-    type: string
+    type: integer
   - name: Subprojeto
+    type: integer
+  - name: Fonte
+    type: integer
+  - name: IAG
+    type: integer
+  - name: Descrição
     type: string
   - name: Categoria
     type: string
-  - name: Grupo_Despesa
+  - name: Código da Natureza
+    type: integer
+  - name: Natureza
     type: string
-  - name: Modalidade
+  - name: Valor (R$) 2023
     type: string
-  - name: Elemento_Despesa
+  - name: Valor (R$) 2024
     type: string
-  - name: Item_Despesa
+  - name: Valor (R$) 2025
     type: string
-  - name: Fonte
-    type: string
-  - name: IPU
-    type: string
-  - name: IAG
-    type: string
-  - name: Descrição
-    type: string
-  - name: Valor (R$)
+  - name: Valor (R$) 2026
     type: string
