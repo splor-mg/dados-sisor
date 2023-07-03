@@ -1,24 +1,24 @@
 fields:
-  - name: orgao_cod
-    title: Código do Órgão
+  - name: Código do Órgão
+    title: orgao_cod
     type: integer
-  - name: orgao_nome_sigla
-    title: Órgão
+  - name: Órgão
+    title: orgao_nome_sigla
     type: string
-  - name: uo_cod
-    title: Código da UO
+  - name: Código da UO
+    title: uo_cod
     type: integer
-  - name: uo_nome_sigla
-    title: Unidade Orçamentária
+  - name: Unidade Orçamentária
+    title: uo_nome_sigla
     type: string
-  - name: funcao_cod
-    title: Função
+  - name: Função
+    title: funcao_cod
     type: integer
-  - name: subfuncao_cod
-    title: Subfunção
+  - name: Subfunção
+    title: subfuncao_cod
     type: integer
-  - name: programa_cod
-    title: Programa
+  - name: Programa
+    title: programa_cod
     type: integer
   - name: Identificador
     title: Identificador
@@ -26,8 +26,8 @@ fields:
   - name: Projeto_Atividade
     title: Projeto_Atividade
     type: integer
-  - name: acao_cod
-    title: Ação
+  - name: Ação
+    title: acao_cod
     type: integer
   - name: Subprojeto
     title: Subprojeto
@@ -56,9 +56,11 @@ fields:
   - name: IAG
     title: IAG
     type: integer
-  - name: acao_desc
-    title: Descrição
+  - name: Descrição
+    title: acao_desc
     type: string
-  - name: vl_loa
-    title: Valor (R$)
+  - name: Valor (R$)
+    title: vl_loa_desp
     type: number
+    groupChar: '.'
+    decimalChar: ','
