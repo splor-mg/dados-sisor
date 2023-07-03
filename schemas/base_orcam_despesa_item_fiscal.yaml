@@ -30,31 +30,31 @@ fields:
     title: acao_cod
     type: integer
   - name: Subprojeto
-    title: Subprojeto
+    title: subprojeto_cod
     type: integer
   - name: Categoria
-    title: Categoria
+    title: categoria_cod
     type: integer
   - name: Grupo_Despesa
-    title: Grupo_Despesa
+    title: grupo_cod
     type: integer
   - name: Modalidade
-    title: Modalidade
+    title: modalidade_cod
     type: integer
   - name: Elemento_Despesa
-    title: Elemento_Despesa
+    title: elemento_cod
     type: integer
   - name: Item_Despesa
-    title: Item_Despesa
+    title: item_cod
     type: integer
   - name: Fonte
-    title: Fonte
+    title: fonte_cod
     type: integer
   - name: IPU
-    title: IPU
+    title: ipu_cod
     type: integer
   - name: IAG
-    title: IAG
+    title: iag_cod
     type: integer
   - name: Descrição
     title: acao_desc
