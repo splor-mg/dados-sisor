@@ -1,20 +1,20 @@
 fields:
   - name: Cód. UO
-    target: UO_COD
+    target: uo_cod
     type: integer
   - name: UO
     type: string
   - name: Grupo de Despesa
-    target: GRUPO_COD
+    target: grupo_cod
     type: integer
   - name: Fonte
-    target: FONTE_COD
+    target: fonte_cod
     type: integer
   - name: IPU
-    target: IPU_COD
+    target: ipu_cod
     type: integer
   - name: IAG
-    target: IAG_COD
+    target: iag_cod
     type: integer
   - name: Valor Limite 2024
     type: number

@@ -2,63 +2,63 @@ fields:
   - name: ANO
     type: integer
   - name: COD_ORGAO
-    target: ORGAO_COD
+    target: orgao_cod
     type: integer
   - name: ORGAO
-    target: ORGAO_NOME_SIGLA
+    target: orgao_nome_sigla
     type: string
   - name: PODER
-    target: PODER_COD
+    target: poder_cod
     type: integer
   - name: COD_UO
-    target: UO_COD
+    target: uo_cod
     type: integer
   - name: UO
-    target: UO_NOME_SIGLA
+    target: uo_nome_sigla
     type: string
   - name: SEQ_PROGTRAB
     type: integer
   - name: FUNCAO
-    target: FUNCAO_COD
+    target: funcao_cod
     type: integer
   - name: SUB_FUNCAO
-    target: SUBFUNCAO_COD
+    target: subfuncao_cod
     type: integer
   - name: PROGRAMA
-    target: PROGRAMA_COD
+    target: programa_cod
     type: integer
   - name: IDENT_PROJATIV
     type: integer
   - name: PROJ_ATIV
     type: integer
   - name: AÇÃO
-    target: ACAO_COD
+    target: acao_cod
     type: integer
   - name: VALOR (R$)
     type: number
     groupChar: '.'
     decimalChar: ','
   - name: IAG
-    target: IAG_COD
+    target: iag_cod
     type: integer
   - name: DESC_PROJETO_ATIV
     type: string
   - name: CATEGORIA
-    target: CATEGORIA_COD
+    target: categoria_cod
     type: string
   - name: COD_NATUREZA
-    target: NATUREZA_COD
+    target: natureza_cod
     type: integer
   - name: NATUREZA
     type: string
   - name: COD_FONTE
-    target: FONTE_COD
+    target: fonte_cod
     type: integer
   - name: FONTE
     type: string
   - name: NOME_ACAO
-    target: ACAO_DESC
+    target: acao_desc
     type: string
   - name: NOME_PROGRAMA
-    target: PROGRAMA_DESC
+    target: programa_desc
     type: string

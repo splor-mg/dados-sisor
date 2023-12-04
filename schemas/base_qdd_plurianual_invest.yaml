@@ -20,7 +20,7 @@ fields:
   - name: PROJ_ATIV
     type: integer
   - name: AÇÃO
-    target: ACAO_COD
+    target: acao_cod
     type: integer
   - name: SUBPROJETO
     type: integer
@@ -33,7 +33,7 @@ fields:
   - name: PROGRAMA
     type: string
   - name: ACAO
-    target: ACAO_DESC
+    target: acao_desc
     type: string
   - name: VALOR (R$) 2024
     type: number

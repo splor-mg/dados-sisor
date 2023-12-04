@@ -1,24 +1,24 @@
 fields:
   - name: UO
-    target: UO_COD
+    target: uo_cod
     type: integer
   - name: FUNCAO
-    target: FUNCAO_COD
+    target: funcao_cod
     type: integer
   - name: SUBFUNCAO
-    target: SUBFUNCAO_COD
+    target: subfuncao_cod
     type: integer
   - name: PROGRAMA
-    target: PROGRAMA_COD
+    target: programa_cod
     type: integer
   - name: ACAO
-    target: ACAO_COD
+    target: acao_cod
     type: integer
   - name: SUBPROJETO
-    target: SUBPROJETO_COD
+    target: subprojeto_cod
     type: integer
   - name: IAG
-    target: IAG_COD
+    target: iag_cod
     type: integer
   - name: NUMERO DA OBRA SISOR
     type: integer
