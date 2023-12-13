@@ -3,7 +3,7 @@ fields:
     target: ano
     type: integer
   - name: UO
-    target: uo_cod
+    target: uo_cod_sigla
     type: string
   - name: Classificação
     type: string

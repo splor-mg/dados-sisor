@@ -21,16 +21,16 @@ fields:
     target: programa_cod
     type: integer
   - name: Identificador
-    target: identificador
+    target: identificador_tipo_acao_cod
     type: integer
   - name: Projeto_Atividade
-    target: projeto_atividade
+    target: projeto_atividade_cod
     type: integer
   - name: Ação
     target: acao_cod
     type: integer
   - name: Subprojeto
-    target: subprojeto_cod
+    target: subprojeto_subatividade_cod
     type: integer
   - name: Categoria
     target: categoria_cod
@@ -60,7 +60,7 @@ fields:
     target: acao_desc
     type: string
   - name: Valor (R$)
-    target: vl_loa_desp
+    target: vlr_loa_desp
     type: number
     groupChar: '.'
     decimalChar: ','

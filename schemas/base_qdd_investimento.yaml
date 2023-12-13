@@ -35,6 +35,7 @@ fields:
     target: acao_cod
     type: integer
   - name: VALOR (R$)
+    target: vlr_loa_desp_invest
     type: number
     groupChar: '.'
     decimalChar: ','

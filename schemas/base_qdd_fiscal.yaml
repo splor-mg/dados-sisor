@@ -49,26 +49,29 @@ fields:
     target: programa_cod
     type: integer
   - name: IDENT_PROJATIV
+    target: identificador_tipo_acao_cod
     type: integer
   - name: PROJ_ATIV
+    target: projeto_atividade_cod
     type: integer
   - name: AÇÃO
     target: acao_cod
     type: integer
   - name: SUB_PROJETO
+    target: subprojeto_subatividade_cod
     type: integer
   - name: VALOR UO (R$)
-    target: vl_loa_desp_uo
+    target: vlr_loa_desp_uo
     type: number
     groupChar: '.'
     decimalChar: ','
   - name: VALOR SCPPO (R$)
-    target: vl_loa_desp_scppo
+    target: vlr_loa_desp_scppo
     type: number
     groupChar: '.'
     decimalChar: ','
   - name: VALOR FINAL (R$)
-    target: vl_loa_desp
+    target: vlr_loa_desp
     type: number
     groupChar: '.'
     decimalChar: ','
